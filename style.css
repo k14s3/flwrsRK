@@ -1,0 +1,101 @@
+body {
+    font-family: 'Patrick Hand', cursive; /* Changed to Patrick Hand */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #add8e6; /* Light blue background */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.flower-gif {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#questions {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#questions p {
+    margin: 10px 0;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.question {
+    cursor: pointer;
+    background-color: #fff; /* White background for questions */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.question:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+    transform: scale(1.02);
+}
+
+.question-text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+#answer-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+}
+
+#answer-box.hidden {
+    display: none;
+}
+
+#answer-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#answer-box button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #add8e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#answer-box button:hover {
+    background-color: #87ceeb;
+}
+
+.bottom-text {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+    width: 100%;
+    max-width: 600px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap'); /* Importing Patrick Hand font */
